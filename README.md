@@ -1,5 +1,13 @@
 🐦 Elevate_Task
 
+## ✨ Features
+- 🔄 **Skeleton Loading State** 
+- 🏠 **Home Screen** with modern UI.
+- 📂 **Categories & Items** grid view.
+- ✔  **Using Cubit MVVM**
+- ✔  **Using getIt**
+- ✔  **Using RepositoryPattern**
+
 
 ## 📸 Screenshots
 
