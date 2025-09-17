@@ -22,13 +22,10 @@ class CategoryItem extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
                   child: CachedNetworkImage(
-                    imageUrl:
-                        category.image ?? 'https://via.placeholder.com/150',
+                    imageUrl:category.image!,
                     height: 100,
                     width: double.infinity,
                     fit: BoxFit.contain,
-                    placeholder: (context, url) =>
-                        Center(child: CircularProgressIndicator()),
                     errorWidget: (context, url, error) => Icon(Icons.error),
                   ),
                 ),
